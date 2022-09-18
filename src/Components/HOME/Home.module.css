@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+}
+
+.productContainer{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    flex-wrap: wrap; /* if we use only display:flex the all the elements will be in a single line to make in different line we use flex-wrap: wrap*/
+    justify-content: space-around;
+}
+
+@media (max-width:771px){
+    .productContainer{
+        width:90%;
+    }
+}
